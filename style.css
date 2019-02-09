@@ -1,10 +1,10 @@
 body {
+    
     font-family: arial, helvetica, sans-serif;
     font-size: small;
     color: black;
-    background-color: #ffc;
     margin: 20px;
-    padding-top: 109px;
+    text-align: center;
 }
 
 p {
@@ -12,9 +12,20 @@ p {
 }
 
 img {
-    border-style: dashed;
-    border-width: 2px;
-    border-color: #ccc;
     height: 92px;
     width: 272px;
+    padding-top:109px
+}
+
+.searchform {
+
+}
+
+.center {
+
+}
+
+#footer {
+    postion: absolute;
+    bottom:0;
 }
