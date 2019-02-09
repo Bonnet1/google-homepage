@@ -1,0 +1,20 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: small;
+    color: black;
+    background-color: #ffc;
+    margin: 20px;
+    padding-top: 109px;
+}
+
+p {
+    line-height: 21px;
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+    height: 92px;
+    width: 272px;
+}
