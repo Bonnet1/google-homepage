@@ -6,16 +6,20 @@
     <!-- Creating a fake Google page for TOP -->
 </head>
 <body>
+    <div id="header">
     <header>
         <p>Things at the top of the page</p>
     </header>
-    <div class="searchform">
+    </div>
+    <div id="logo">
         <img alt="Google" height="92" src ="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div class="searchbutton">
-            <form>
+    </div>
+    <div id="searchform" class="content">
+        <form id="tsf">
                 <label for="search"></label>
-                <input type="text" width="272"><br>
-                <div class="button">
+                <input type="text" id="tsf">
+                <br><br>
+                <div id="button">
                     <button type="submit">Google Search</button>
                     <button type="lucky">I'm Feeling Lucky</button>
                 </div>
@@ -24,7 +28,7 @@
     </div>
     <div id="footer">
         <footer>
-            <p>Things at the bottom of the page</p>
+        <p>Things at the bottom of the page</p>
         </footer>
     </div>
  </body>

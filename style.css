@@ -1,3 +1,29 @@
+#header {
+    top: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
+
+#searchform {
+
+}
+
+#tsf {
+    height: 30px;
+    width: 833px;
+    text-align: center;
+}
+
+#button {
+    text-align: center;
+}
+
+.content {
+    padding-bottom: 35px
+}
+
 body {
     
     font-family: arial, helvetica, sans-serif;
@@ -17,15 +43,10 @@ img {
     padding-top:109px
 }
 
-.searchform {
-
-}
-
-.center {
-
-}
-
 #footer {
-    postion: absolute;
-    bottom:0;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
 }
